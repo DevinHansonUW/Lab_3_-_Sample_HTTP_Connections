@@ -38,7 +38,7 @@ public class HelloViewModel extends AndroidViewModel {
     }
 
     public void connectGet() {
-        String url = "https://cfb3-tcss450-labs-2021sp.herokuapp.com/hello";
+        String url = "http://10.0.2.2:5000/hello";
         Request request = new JsonObjectRequest(
                 Request.Method.GET,
                 url,
@@ -56,7 +56,7 @@ public class HelloViewModel extends AndroidViewModel {
     }
 
     public void connectPost() {
-        String url = "https://cfb3-tcss450-labs-2021sp.herokuapp.com/hello";
+        String url = "http://10.0.2.2:5000/hello";
 
         Request request = new JsonObjectRequest(
                 Request.Method.POST,
